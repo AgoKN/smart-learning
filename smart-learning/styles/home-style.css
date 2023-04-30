@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.home-info{
+    color: rgb(229,34,61);
+    position: absolute;
+    text-align: left;
+    width: 45%;
+    font-family:monospace;
+}
+
+.border h2{
+    border-style: solid; 
+    border-color: rgb(229, 255, 246);
+    border-left: 10px solid rgb(52,144,145);
+    border-top: 1px;
+    border-bottom: 1px;
+    border-right:0 ;
+    background-color: rgb(229, 255, 246);
+    padding: 20px 10px;
+    margin: 10px 10px;
+    list-style-type: none;
+    height: 40px;
+    animation-name: animation;
+    animation-duration: 7s;
+}
+
+@keyframes animation {
+    0%  {border-color: rgb(229, 255, 246);}
+    25%  {border-color: rgb(251,208,28);}
+    50%   {border-color:  rgb(240,53,89);}
+    100% {border-color:rgb(52,144,145);}
+}
+
+img {
+    float: right;
+    width: 55%;
+    margin-top: -80px;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(52,144,145);
+    color: white;
+    text-align: center;
+}
+ 

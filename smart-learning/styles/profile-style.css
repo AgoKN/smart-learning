@@ -1,0 +1,68 @@
+body {
+    background-color: rgb(245, 245, 245);
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin: 50px auto;
+    max-width: 600px;
+    padding: 30px;
+    position: relative;
+}
+
+h1 {
+    color: rgb(171, 28, 77);
+    margin-bottom: 20px;
+}
+
+p {
+    color: rgb(64, 64, 64);
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.btn {
+    background-color: rgb(251, 208, 28);
+    border: none;
+    border-radius: 8px;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    position: absolute;
+    top: 25px;
+    right: 25px;
+}
+
+.btn:hover {
+    background-color: rgb(240, 53, 89);
+}
+
+input[type="submit"] {
+    background-color: #4CAF50; 
+    border: none; 
+    color: white; 
+    padding: 8px 16px; 
+    text-align: center; 
+    text-decoration: none; 
+    display: inline-block;
+    font-size: 14px; 
+    border-radius: 4px; 
+    cursor: pointer; 
+}
+
+input {
+    caret-color: red;
+}
+
+li::marker {
+    content: '💎';
+}

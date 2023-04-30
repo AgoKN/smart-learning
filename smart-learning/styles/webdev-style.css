@@ -1,0 +1,61 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+    font-size: 60px;
+    text-align: center;
+    margin-top: -2px;
+    color: rgb(52,144,145);
+    animation-name: animation;
+    animation-duration: 7s;
+    font-family: Impact, fantasy;
+}
+
+@keyframes animation {
+    0%  {color: rgb(229, 255, 246);}
+    25%  {color: rgb(237,212,90);}
+    50%   {color:  rgb(232,104,70);}
+    100% {color:rgb(52,144,145);}
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -50px;
+}
+
+.webdev-info {
+    margin: 0 70px;
+    font-family: Andale Mono, monospace;
+}
+
+pre {
+    background-color: rgb(171,28,77); 
+    color: rgb(251,235,135); 
+    font-size: large
+}
+
+.cards {
+    font-family: URW Chancery L, cursive;
+    box-shadow: 0 16px 32px 0 rgba(0,0,0,0.2);
+    padding: 20px;
+    margin: 50px;
+    width: 50%;
+}
+
+.row-cards {
+    display:flex; 
+    align-items: center;
+}
+
+.footer {
+    position:absolute;
+    width: 100%;
+    margin-top: 30px;
+    background-color: rgb(52, 144, 145);
+    color: white;
+    text-align: center;
+}

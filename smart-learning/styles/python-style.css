@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.table {
+  width: 70%;
+  background-color: #ffffff;
+  border-collapse: collapse;
+  border-width: 2px;
+  border-color: rgb(251,208,28);
+  border-style: solid;
+  color: #000000;
+}
+
+.table td, .table th {
+  border-width: 2px;
+  border-color: rgb(251,208,28);
+  border-style: solid;
+  padding: 3px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 70px;
+    margin-top: -40px;
+    color: rgb(52,144,145);
+    animation-name: animation;
+    animation-duration: 7s;
+    font-family: Impact, fantasy;
+}
+
+@keyframes animation {
+    0%  {color: rgb(229, 255, 246);}
+    25%  {color: rgb(251,208,28);}
+    50%   {color:  rgb(240,53,89);}
+    100% {color:rgb(52,144,145);}
+}
+
+a {
+    color: rgb(52,144,145);
+    text-decoration: none;
+}
+a:hover{
+    text-decoration:underline;
+}
+
+h2 {
+    color: rgb(229,34,61);
+    font-style: italic;
+}
+
+.video {
+    text-align: center;
+}
+
+.python-info {
+    margin: 0 70px;
+    font-family: Andale Mono, monospace;
+}
+
+.footer {
+    position:absolute;
+    width: 100%;
+    background-color: rgb(52, 144, 145);
+    color: white;
+    text-align: center;
+}
